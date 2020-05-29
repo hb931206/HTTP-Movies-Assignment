@@ -25,12 +25,6 @@ function UpdateMovies(props) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log({
-    //   title: title || currentMovie.title,
-    //   director: director || currentMovie.director,
-    //   metascore: metascore || currentMovie.metascore,
-    //   stars: stars || currentMovie.stars,
-    // });
 
     const updatedMovies = {
       id,

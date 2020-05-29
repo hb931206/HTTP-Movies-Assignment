@@ -6,6 +6,7 @@ import MovieCard from "./MovieCard";
 function Movie({ history, addToSavedList, getMovieList }) {
   const [movie, setMovie] = useState(null);
   const { id } = useParams();
+  console.log("ID params ", id);
 
   const fetchMovie = (id) => {
     axios
